@@ -15,7 +15,7 @@ def load_data():
 
     return frekvencija, err
 
-
+#
 @st.cache_data
 def load_measurement_data():
     df=pd.read_pickle('data_power_dodeka.pkl')
